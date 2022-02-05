@@ -4,20 +4,6 @@
 docker pull mysql:5.6
 ```
 
-# buat direktori untuk store data db
-
-**NOTE:** sebenarnya tidak perlu bikin direktori manual, karena ketika eksekusi `docker run`, docker otomatis akan membuat folder. 
-
-```bash
-mkdir -p mysql/data
-```
-
-# buat direktori untuk store custom config mysql
-
-```bash
-mkdir -p mysql/config
-```
-
 # jalankan image mysql dalam docker container
 
 ```bash
